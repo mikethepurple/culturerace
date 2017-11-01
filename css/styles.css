@@ -1,3 +1,147 @@
-#toolpic{
+#toolpic {
     max-width: 150px;
+}
+
+#logo {
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+#main {
+    background: #6bdee0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(152deg, #6bdee0, #23cbe5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(152deg, #6bdee0, #23cbe5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(152deg, #6bdee0, #23cbe5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(152deg, #6bdee0, #23cbe5); /* Standard syntax */
+}
+
+#page1 {
+    position: absolute;
+    top: 100px;
+    left: 88px;
+}
+
+#line2 {
+    margin-top: 140px;
+}
+
+#stbutton {
+    margin-top: 120px;
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('css/fonts/acrom.ttf') format('ttf'),
+    url('css/fonts/acrom.woff2') format('woff2'),
+         url('css/fonts/acrom.woff') format('woff');
+
+         
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('css/fonts/futura.ttf') format('ttf'),
+    url('css/fonts/futura.woff2') format('woff2'),
+         url('css/fonts/futura.woff') format('woff');
+
+         
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.constructor {
+    font-family: 'Acrom';
+    font-size: 36px;
+    color: rgba(72, 49, 81, 0.59);
+}
+
+
+
+.button {
+    background-color: transparent; 
+    border: solid 5px #feea66;
+    color: #feea66;
+    
+    vertical-align: middle;
+    padding-right: 70px;
+    padding-left: 24px;
+
+    font-size: 36px;
+    font-family: 'Futura';
+    height: 85px;
+    
+    box-shadow: inset 0 0 0 0 #feea66;
+    -webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.button:hover {
+    /* Green */
+    box-shadow: inset 300px 0 0 0 #feea66;
+    color: #FFF;
+
+}
+
+.button:after {
+
+}
+
+
+.btnimg {
+    height: 20px;
+    position: relative;
+    right: -40px;
+}
+
+
+
+.selector {
+    border: solid 5px #feea66;
+    height: 85px;
+    font-family: 'Futura';
+    border-radius: 0;
+    font-size: 36px;
+    color: #feea66;
+    background: transparent;
+    /* padding-top: 0px; */
+    padding-right: 50px;
+    vertical-align: middle;
+
+
+    padding-left: 24px;
+    
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;   
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.selector select {
+    border: none;
+    border-radius: 0;
+    
+    box-shadow: none;
+    
+    background-image: none;
+    
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.selector select:focus {
+    outline: none;
+    padding-left: 24px;
+    background: transparent;
 }

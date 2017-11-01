@@ -4,37 +4,30 @@
         <title>Culture Race</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
+    <body id="main">
         <div id="header">
-
+            <img id = "logo" src="logo.png"/>
         </div>
 
-        <div id="page1">
-            <h1>Hej! I am a
-                <select id="pofession">
+        <div id = "page1">
+            <p class = "constructor">Hej! I am a
+                <select class="selector" id="profession">
                     <option value="designer">designer</option>
                     <option value="developer">developer</option>
                     <option value="creative">creative</option>
                 </select>
-                working in a 
-                <select id="industry">
-                    <option value="ad">ad agency</option>
-                    <option value="dev">development studio</option>
-                    <option value="prod">production</option>
-                    <option value="startup">startup</option>
-                </select>.
-                <br/>
-                I think we have problems with 
-                <select id="problems">
-                        <option value="leadership">leadership</option>
+            </p>
+            <p class = "constructor" id = "line2" >
+                And I have problems with
+                <select class="selector" id="problems">
+                        <option value="designrole">explaining the role of design</option>
                         <option value="teambuilding">teambuilding</option>
                         <option value="trust">trust</option>
                         <option value="motivation">motivation</option>
-                    </select>.
-                <br/>
-                    
-            </h1>
-            <button id="stbutton">HELP</button>
+                        <img class = "btnimg" src = "css/img/select.png"/>
+                </select> 
+            </p>
+            <button class = "button" id="stbutton">help <img src = "css/img/arrow.png" class = "btnimg" /></button>
         </div>
         <div id="page2" style="display: none">
             <h1 id="title">Love Bombing</h1>
