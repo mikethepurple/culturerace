@@ -63,7 +63,12 @@
 }
 
 #section1 {
-
+    float: left;
+    /* /* width: 100vw;  */
+}
+#section2 {
+    /* width: 100vw; */
+    float: left;
 }
 
 
@@ -260,7 +265,13 @@
     top: 5%;
     margin-left: -80px;
     margin-right: auto;
-    float: left;
+    
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     /* white-space: nowrap;
     overflow:scroll; */
     
