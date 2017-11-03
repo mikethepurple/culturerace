@@ -256,6 +256,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
    
 }
 
@@ -271,8 +272,59 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
+    width: 100vw;
     /* white-space: nowrap;
     overflow:scroll; */
     
 }
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 50%;
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
