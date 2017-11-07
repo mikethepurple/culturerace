@@ -74,9 +74,9 @@
 
 @font-face {
     font-family: 'Acrom';
-    src: url('css/fonts/acrom.ttf') format('ttf'),
-    url('css/fonts/acrom.woff2') format('woff2'),
-         url('css/fonts/acrom.woff') format('woff');
+    src: url('/css/fonts/acrom.ttf') format('ttf'),
+    url('/css/fonts/acrom.woff2') format('woff2'),
+         url('/css/fonts/acrom.woff') format('woff');
 
          
          
@@ -87,9 +87,9 @@
 
 @font-face {
     font-family: 'Futura';
-    src: url('css/fonts/futura.ttf') format('ttf'),
-    url('css/fonts/futura.woff2') format('woff2'),
-         url('css/fonts/futura.woff') format('woff');
+    src: url('/css/fonts/futura.ttf') format('ttf'),
+    url('/css/fonts/futura.woff2') format('woff2'),
+         url('/css/fonts/futura.woff') format('woff');
 
          
          
