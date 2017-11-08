@@ -6,15 +6,24 @@
             "role": "designer",
             "time": "30 min",
             "people": "2-10",
-            "tools": ["Pens", " Paper/Notebooks", "Laptop"],
+            "tools": 
+            [
+                "Pens",
+                "Paper/Notebooks",
+                "Laptop"
+            ],
             "sections": [
                 {
-                    "title" : "Step 0",
-                    "text" : "I am trying to dynamically create a list of applicants in my HTML. I have a list of applicant saved in JSON format that I am reading in. I have an HTML template of the applicant tile that I read in, populate and then append to the page for each applicant." 
+                    "title" : "Banana",
+                    "text" : "This is a method for individuals and teams to define the structure, direction and first steps of a project. The individual or team works through a set of questions and documents the answers in a sharable digital format. This can either be a “living” document that develops with the project it can be left as just a clear and concise record of the starting-point." 
                 },
                 {
-                    "title" : "Step 1",
+                    "title" : "Step 2",
                     "text" : "I am not sure if forEach would be a right one. You can use jQuery's $.each function to loop in an array with this being referred as the current iterated object:" 
+                },
+                {
+                    "title" : "Step 3",
+                    "text" : "I didn't think of so much content!" 
                 }
             ]
         },
@@ -24,7 +33,12 @@
             "role": "developer",
             "time": "30 min",
             "people": "2-10",
-            "tools": ["Pens", "Paper/Notebooks", "Laptop"],
+            "tools": 
+            [
+                "Pens",
+                "Paper/Notebooks",
+                "Laptop"
+            ],
             "sections": [
                 {
                     "title" : "Step 0",
