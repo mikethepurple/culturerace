@@ -18,11 +18,35 @@ $('#rightarrow').on("click", function() {
     }, "slow");
  });
 
- console.log("poop")
+ console.log("poop");
+
  $(".lazy").slick({
     lazyLoad: 'ondemand', // ondemand progressive anticipated
     infinite: true
   });
+
+
+var title = document.getElementById('tooltitle');
+var desc = document.getElementById('tooltext');
+var time = document.getElementById('time');
+var reqs = document.getElementById("tools");
+var people = document.getElementById("people");
+
+$.getJSON('/content/content.json', function(contents) {
+    $.each(contents.tools, function(i, items){
+        if(contents.tools[i].role == "designer") {
+            title.innerHTML = contents.tools[i].title;
+            desc.innerHTML = contents.tools[i].description;
+            time.innerHTML = contents.tools[i].time;
+            $.each(contents.tools[i].tools, function(j, items) {
+                console.log(contents.tools[i].tools[j]);
+                reqs.innerHTML += (contents.tools[i].tools[j]+ "</br> ");
+            });
+            people.innerHTML = contents.tools[i].people;
+
+        }
+    });
+});
 
 
 // $(function() {
@@ -39,4 +63,45 @@ $('#rightarrow').on("click", function() {
 // 		}, 1000);
 // 		event.preventDefault();
 // 	});
+// });
+
+
+
+
+
+
+
+
+// openJSON('/content/content.json', function(data) { 
+//     $.each(data.tools, function(i, item) {
+//         console.log(1);
+//     });​
+// });
+
+
+
+
+
+
+
+
+// var data = {
+//     "items": [
+//         {
+//             "title": "sample 1",
+//             "author": "author 1"
+//         },
+//         {
+//             "title": "sample 2",
+//             "author": "author 2"
+//         }
+//     ]
+// };
+
+
+
+// data.items.forEach(function(v, i) {
+// h5.innerHTML = v.title;
+// p.innerHTML = "By: " + v.author;
+// console.log("poooop");
 // });

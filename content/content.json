@@ -1,0 +1,41 @@
+{
+    "tools": [
+        {
+            "title" : "Love Bombing",
+            "description": "some description that I'm too lazy to type",
+            "role": "designer",
+            "time": "30 min",
+            "people": "2-10",
+            "tools": ["Pens", " Paper/Notebooks", "Laptop"],
+            "sections": [
+                {
+                    "title" : "Step 0",
+                    "text" : "I am trying to dynamically create a list of applicants in my HTML. I have a list of applicant saved in JSON format that I am reading in. I have an HTML template of the applicant tile that I read in, populate and then append to the page for each applicant." 
+                },
+                {
+                    "title" : "Step 1",
+                    "text" : "I am not sure if forEach would be a right one. You can use jQuery's $.each function to loop in an array with this being referred as the current iterated object:" 
+                }
+            ]
+        },
+        {
+            "title" : "PoD", 
+            "description": "some description that I'm too lazy to type",
+            "role": "developer",
+            "time": "30 min",
+            "people": "2-10",
+            "tools": ["Pens", "Paper/Notebooks", "Laptop"],
+            "sections": [
+                {
+                    "title" : "Step 0",
+                    "text" : "I am trying to dynamically create a list of applicants in my HTML. I have a list of applicant saved in JSON format that I am reading in. I have an HTML template of the applicant ile that I read in, populate and then append to the page for each applicant." 
+                },
+                {
+                    "title" : "Step 1",
+                    "text" : "I am not sure if forEach would be a right one. You can use jQuery's $.each function to loop in an array with this being referred as the current iterated object:" 
+                }
+            ]
+        }
+    ]
+}
+
